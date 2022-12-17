@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;700&display=swap');
+
+body {
+    background: rgba(240, 196, 230, 0.26);
+    margin: 0px;
+}
+
+nav {
+    background-color: #76BEBE;
+    display: grid;
+    grid-auto-flow: column;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 38px;
+    align-items: center;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+header {
+    background: white;
+    display: grid;
+    grid-auto-flow: column;
+    font-family: 'Raleway';
+}
+
+h1 {
+    font-size: 64px;
+    line-height: 75px;
+    color: #CF509C;
+    font-style: normal;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 42px;
+    font-style: normal;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    position: absolute;
+    width: 261px;
+    height: 160px;
+    margin-left: 222px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+form {
+    display: grid;
+    grid-auto-flow: row;
+    width: 450px;
+}
+
+label {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+input {
+    font-family: 'Alegreya Sans SC';
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.57);
+    height: 45px;
+    border: none;
+    margin-bottom: 17px;
+    font-size: 23px;
+    padding: 5px;
+}
+
+.submit-button {
+    background: #76BEBE;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Alegreya Sans SC';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    width: 244px;
+    height: 52px;
+    margin: 0 auto;
+    border: none;
+    margin-top: 30px;
+}
+
+#sec-form {
+    display: grid;
+    grid-auto-flow: column;
+    margin: 56px 64px;
+}
+
+th {
+    box-sizing: border-box;
+    background: #3E3D3D;
+    border: 1px solid #767373;
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 34px;
+    color: white;
+    padding: 1px 27px;
+}
+
+td {
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.57);
+    border: 1px solid #767373; 
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 34px;
+    text-align: center;
+}
+
+#dataTable {
+    margin-left: 42px;
+}
+
+::placeholder {
+    color: grey;
+    font-size: 23px;
+    padding: 5px;
+}

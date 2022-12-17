@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Cadastro de Medicamentos</title>
+    
+</head>
+<body>
+    <nav>
+        <h2>Home</h2>
+        <h2>Cadastro <br> de Medicamentos</h2>
+        <h2>Cadastro <br> de Vacinas</h2>
+        <h2>Cadastro <br> de Cosméticos</h2>
+    </nav>
+
+    <header>
+        <div>
+            <img class="logo" src="logo.png" alt="Logo Medicamentos">
+        </div>
+        <div>
+            <h1>Cadastro de Medicamentos</h1>
+            <h3>Farmácia da Gente</h3>
+        </div>
+    </header>
+
+    <section id="sec-form">
+
+        <div id="form"></div>
+        <form onsubmit="addMed()">
+            <label for="medName">Nome do Medicamento</label>
+            <input placeholder="Bonpragrip" autocomplete="off" type="text" required id="fname" name="medName">
+
+            <label for="medQuant">Quantidade Disponível</label>
+            <input placeholder="100" autocomplete="off" type="text" required id="fquant" name="medQuant">
+
+            <label for="medClass">Classe de Medicamento</label>
+            <input placeholder="Antibiótico" autocomplete="off" type="text" required id="fclass" name="medClass">
+
+            <button class="submit-button" type="submit"> Cadastrar </button>
+        </form>
+        </div>
+
+        <div>
+            <table id="dataTable">
+                <tr>
+                    <th>ID</th>
+                    <th>Medicamento</th>
+                    <th>Quantidade</th>
+                    <th>Classe de Medicamento</th>
+                    <th>Remover</th>
+                </tr>
+
+            </table>
+        </div>
+
+    </section>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
